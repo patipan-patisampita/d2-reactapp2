@@ -16,16 +16,16 @@ const Slider = () => {
             <div className="carousel-item active">
             <img src={Slider1} className="d-block w-100" alt="cat" />
             <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5>แมววิเชียรมาศ “เพชรแห่งดวงจันทร์”</h5>
+                <p>ลักษณะสีขน : ขนสั้นแน่นสีขาว หรือสีน้ำตาลอ่อน มีแต้มสีครั่ง หรือสีน้ำตาลไหม้ที่บริเวณใบหน้า .</p>
             </div>
             </div>
 
             <div className="carousel-item">
             <img src={Slider2} className="d-block w-100" alt="cat2" />
             <div className="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h5>แมวศุภลักษณ์ “แมวทองแดง”</h5>
+                <p>ลักษณะสีขน : ขนสั้น สีน้ำตาลเข้มคล้ายสีสนิม (สีทองแดง) บริเวณส่วนหู ใบหน้า ปลายขา หาง จะมีสีน้ำตาลเข้มกว่าบริเวณลำตัวทั่วๆ ไป</p>
             </div>
             </div>
 

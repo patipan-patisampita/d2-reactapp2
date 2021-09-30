@@ -5,6 +5,7 @@ import "./App.css";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
+import Service from "./components/pages/inc/Service";
 import Navbar from "./components/pages/Navbar";
 import Profile from "./components/pages/Profile";
 
@@ -34,6 +35,10 @@ function App() {
 
           <Route path="/profile">
             <Profile />
+          </Route>
+
+          <Route path='/services'>
+            <Service />
           </Route>
 
         </Switch>
