@@ -16,7 +16,7 @@ const Service = () => {
           <div className="col-md-4">
             <div className="card">
                 <img src={Service1} className="w-100" alt="Service" />
-                <div className="card-body">
+                <div className="card-body shadow">
                     <h4>Web Hosting</h4>
                     <div className="underline"></div>
                     <p>
@@ -30,7 +30,7 @@ const Service = () => {
           <div className="col-md-4">
             <div className="card">
                 <img src={Service1} className="w-100" alt="Service" />
-                <div className="card-body">
+                <div className="card-body shadow">
                     <h4>Cloud Server</h4>
                     <div className="underline"></div>
                     <p>
@@ -44,7 +44,7 @@ const Service = () => {
           <div className="col-md-4">
             <div className="card">
                 <img src={Service1} className="w-100" alt="Service" />
-                <div className="card-body">
+                <div className="card-body shadow">
                     <h4>Domain Registration</h4>
                     <div className="underline"></div>
                     <p>

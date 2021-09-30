@@ -3,6 +3,7 @@ import Slider from "../inc/Slider";
 import {Link} from 'react-router-dom' 
 import Vmc from "./inc/Vmc";
 import Service from "./inc/Service";
+import Footer from "./Footer";
 
 function Home(){
     return(
@@ -29,6 +30,10 @@ function Home(){
 
             {/* Service */}
             <Service />
+
+            {/* Footer */}
+            <Footer />
+            
         </div>
     )
 }

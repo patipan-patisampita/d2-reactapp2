@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
+
 .section{
   padding-top: 40px;
   padding-bottom: 50px;
+  font-family: 'Sarabun', sans-serif;
 }
 
 .main-heading{
   color:orangered;
   font-size: 25px;
+  font-family: 'Sarabun', sans-serif;
 }
 
 .underline{
@@ -13,8 +17,30 @@
   width: 10rem;
   background-color: orange;
   margin-bottom: 10px;
+  font-family: 'Sarabun', sans-serif;
 }
 
 .bg-c-light{
   background-color: #f2f2f2;
+}
+
+.footer {
+  font-family: 'Sarabun', sans-serif;
+}
+
+.footer a{
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.footer a:hover{
+  color:gray;
+}
+
+h1,h2,h3{
+  font-family: 'Sarabun', sans-serif;
+}
+
+nav, h2, h3{
+  font-family: 'Sarabun', sans-serif;
 }

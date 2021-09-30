@@ -4,6 +4,7 @@ import "./App.css";
 
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/pages/Footer";
 import Home from "./components/pages/Home";
 import Service from "./components/pages/inc/Service";
 import Navbar from "./components/pages/Navbar";
@@ -39,6 +40,10 @@ function App() {
 
           <Route path='/services'>
             <Service />
+          </Route>
+
+          <Route path='/footer'>
+            <Footer />
           </Route>
 
         </Switch>
